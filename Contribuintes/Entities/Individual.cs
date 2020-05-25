@@ -13,6 +13,7 @@ namespace Contribuintes.Entities
 
         public override double Tax()
         {
+            
             return (AnualIncome * 0.25) - (HealthExpenditures * 0.50);
         }
 
